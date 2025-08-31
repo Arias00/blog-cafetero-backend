@@ -32,7 +32,7 @@ const app = express();
 // Si tu frontend tiene varios subdominios que necesitan acceder, puedes
 // usar un array: ['https://www.tudominio.com', 'https://sub.tudominio.com']
 const corsOptions = {
-  origin: 'https://tu-dominio-en-hostinger.com', // <--- ¡CAMBIA ESTO!
+  origin: 'https://jovenesdeorigen.dakarstudios.com', // <--- ¡CAMBIA ESTO!
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH'], // Métodos HTTP permitidos
   allowedHeaders: ['Content-Type', 'Authorization'], // Encabezados permitidos
   credentials: true // Permite enviar cookies/encabezados de autorización (si los usas)
